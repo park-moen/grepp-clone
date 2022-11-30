@@ -4,8 +4,8 @@
   "description": "데브코스 7주차 과제",
   "main": "",
   "scripts": {
-    "start": "npx sass --watch scss:css",
-    "bulid": "npx sass scss:css"
+    "start": "npx sass --watch src/scss:src/css",
+    "build": "npx sass src/scss:src/css"
   },
   "repository": {
     "type": "git",
