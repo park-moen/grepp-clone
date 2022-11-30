@@ -1,0 +1,24 @@
+{
+  "name": "fedc3-7_css",
+  "version": "1.0.0",
+  "description": "데브코스 7주차 과제",
+  "main": "",
+  "scripts": {
+    "start": "npx sass --watch scss:css",
+    "bulid": "npx sass scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prgrms-fe-devcourse/FEDC3-7_CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prgrms-fe-devcourse/FEDC3-7_CSS/issues"
+  },
+  "homepage": "https://github.com/prgrms-fe-devcourse/FEDC3-7_CSS#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
