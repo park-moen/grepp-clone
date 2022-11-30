@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  position: fixed;
+  height: 11rem;
+
+  @include mobile {
+    background-color: red;
+  }
+
+  @include tablet {
+    background-color: green;
+  }
+
+  @include desktop {
+    background-color: blue;
+  }
+}
