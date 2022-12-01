@@ -1,0 +1,9 @@
+$module: 'carousel';
+
+.#{$module} {
+  width: 100%;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
