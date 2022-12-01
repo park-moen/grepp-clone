@@ -1,0 +1,29 @@
+$module: 'nav';
+
+.#{$module} {
+  font-size: 1.6rem;
+
+  &__list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 5px 10px;
+  }
+
+  &__link {
+    color: #333;
+    font-weight: bold;
+    vertical-align: sub;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include mobile {
+    display: none;
+  }
+}
