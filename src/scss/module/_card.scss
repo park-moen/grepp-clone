@@ -1,0 +1,52 @@
+$module: 'card';
+
+.#{$module} {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  line-height: 1.45;
+  font-weight: 600;
+  padding: 1rem 1.2rem;
+
+  &__title {
+    order: 3;
+    font-size: 2rem;
+  }
+
+  &__sub-title {
+    order: 2;
+    font-size: 1.4rem;
+    color: #555;
+  }
+
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+
+    order: -1;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__description {
+    order: 4;
+    font-size: 1.4rem;
+    color: #50555c;
+    margin-bottom: 3.5rem;
+  }
+
+  @include mobile {
+    width: 100%;
+
+    img {
+      max-width: 70%;
+      height: auto;
+    }
+  }
+}
