@@ -64,6 +64,7 @@ $module: 'drawer-nav';
   }
 
   &__sub-list {
+    background-color: #fff;
     position: absolute;
     top: calc(100% + 15px);
     width: calc(100% + 25px);

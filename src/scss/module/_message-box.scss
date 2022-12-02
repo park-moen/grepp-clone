@@ -1,7 +1,39 @@
 $module: 'message-box';
 
-#{$module} {
-  padding: 75px 0;
+.#{$module} {
+  padding: 7.5rem 2rem;
+  width: 80%;
+  background-color: #fff;
 
-  border: 1px solid black;
+  p[class^='message-box__text'] {
+    line-height: 150%;
+  }
+
+  &__wrapper {
+    padding: 10px;
+  }
+
+  &__text--bold {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #1d2023;
+  }
+
+  &__text--normal {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333333;
+  }
+
+  @include mobile {
+    width: 100%;
+
+    &__text--bold {
+      font-size: 3rem;
+    }
+
+    &__text--normal {
+      font-size: 1.6rem;
+    }
+  }
 }
