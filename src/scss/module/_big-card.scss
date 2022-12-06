@@ -1,0 +1,63 @@
+$module: 'big-card';
+
+.#{$module} {
+  width: 100%;
+  padding: 7.5rem 2rem;
+  background-color: rgb(241, 245, 251);
+  line-height: 1.45;
+
+  &__wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__title {
+    padding: 1rem 0;
+    color: #666666;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__description {
+    padding: 1rem 0;
+    color: #222222;
+
+    font-weight: 700;
+
+    p:first-child {
+      font-size: 2.5rem;
+    }
+
+    p:last-child {
+      font-size: 2.5rem;
+      font-size: 3.6rem;
+    }
+  }
+
+  &__info {
+    font-size: 1.8rem;
+
+    color: #222222;
+  }
+
+  &__temp {
+    margin-top: 4rem;
+    padding: 1rem 0;
+  }
+
+  &__link {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  @include mobile {
+    &__wrapper {
+      width: 100%;
+    }
+  }
+}
